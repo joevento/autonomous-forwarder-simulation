@@ -1,0 +1,38 @@
+lidars (relative to root f):
+	roof 1
+		0.75 0 3.8
+		0 45 0
+	roof 2
+		-0.75 0 3.8
+		0 -45 0
+	front
+		0 -1.7 1
+		10 0 0
+	back
+		0 8.55 1
+		-10 0 0
+
+
+import omni.kit.commands
+from pxr import Gf
+import omni.replicator.core as rep
+lidar_config = "Example_Rotary"
+
+render_product1 = rep.create.render_product("/front/front_lidar/front_lidar", [1, 1])
+render_product2 = rep.create.render_product("/front/top_left_lidar/top_left_lidar", [1, 1])
+render_product3 = rep.create.render_product("/front/top_right_lidar/top_right_lidar", [1, 1])
+render_product4 = rep.create.render_product("/back/back_lidar/back_lidar", [1, 1])
+
+# 3. Create a Replicator Writer that "writes" points into the scene for debug viewing
+writer = rep.writers.get("RtxLidarDebugDrawPointCloudBuffer")
+writer.attach(render_product1)
+writer.attach(render_product2)
+writer.attach(render_product3)
+writer.attach(render_product4)
+
+# 4. Create Annotator to read the data from with annotator.get_data()
+annotator = rep.AnnotatorRegistry.get_annotator("RtxSensorCpuIsaacCreateRTXLidarScanBuffer")
+annotator.attach(render_product1)
+annotator.attach(render_product2)
+annotator.attach(render_product3)
+annotator.attach(render_product4)
