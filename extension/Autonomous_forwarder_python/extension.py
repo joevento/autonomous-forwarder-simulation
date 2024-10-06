@@ -21,7 +21,7 @@ from omni.isaac.ui.menu import MenuItemDescription
 from omni.kit.menu.utils import add_menu_items, remove_menu_items
 from omni.usd import StageEventType
 
-from .global_variables import EXTENSION_DESCRIPTION, EXTENSION_TITLE
+from .global_variables import EXTENSION_TITLE
 from .ui_builder import UIBuilder
 
 """
@@ -158,3 +158,4 @@ class Extension(omni.ext.IExt):
     def _build_extension_ui(self):
         # Call user function for building UI
         self.ui_builder.build_ui()
+        

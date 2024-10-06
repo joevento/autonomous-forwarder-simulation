@@ -8,19 +8,16 @@
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 #
 
-import numpy as np
-import carb
 import omni.timeline
 import omni.ui as ui
-from omni.isaac.core.utils.stage import create_new_stage, get_current_stage
+from omni.isaac.core.utils.stage import create_new_stage
+from omni.isaac.core.world import World
 from omni.isaac.ui.element_wrappers import CollapsableFrame, StateButton
 from omni.isaac.ui.element_wrappers.core_connectors import LoadButton, ResetButton
 from omni.isaac.ui.ui_utils import get_style
 from omni.usd import StageEventType
-from pxr import Sdf, UsdLux
-from omni.isaac.core.world import World
 
-from .scenario import AutonomousForwarder
+from .scenario import AutonomousForestryScript
 
 
 class UIBuilder:
@@ -98,7 +95,8 @@ class UIBuilder:
         with world_controls_frame:
             with ui.VStack(style=get_style(), spacing=5, height=0):
                 self._load_btn = LoadButton(
-                    "Load Button", "LOAD", setup_scene_fn=self._setup_scene, setup_post_load_fn=self._setup_scenario)
+                    "Load Button", "LOAD", setup_scene_fn=self._setup_scene, setup_post_load_fn=self._setup_scenario
+                )
                 self._load_btn.set_world_settings(physics_dt=1 / 60.0, rendering_dt=1 / 60.0)
                 self.wrapped_ui_elements.append(self._load_btn)
 
@@ -130,16 +128,7 @@ class UIBuilder:
     def _on_init(self):
         self._articulation = None
         self._cuboid = None
-        self._scenario = AutonomousForwarder()
-
-    def _add_light_to_stage(self):
-        """
-        A new stage does not have a light by default.  This function creates a spherical light
-        """
-        light = UsdLux.DomeLight.Define(get_current_stage(), Sdf.Path("/World/light"))
-        light.CreateIntensityAttr(1000.0)
-        light.CreateColorTemperatureAttr(6500.0)
-        light.AddTranslateOp()
+        self._scenario = AutonomousForestryScript()
 
     def _setup_scene(self):
         """
@@ -147,18 +136,13 @@ class UIBuilder:
         On pressing the Load Button, a new instance of World() is created and then this function is called.
         The user should now load their assets onto the stage and add them to the World Scene.
         """
-        self._stage = create_new_stage()
-        self._add_light_to_stage()
-        world = World.instance()
+        self.stage = create_new_stage()
 
-        # Load the forwarder
         self._scenario.load_assets()
-        # shit extra stuff
-        #for loaded_object in loaded_objects:
-        #    world.scene.add(loaded_object)
-        world.scene.add(self._scenario._articulation)
-        for end_block in self._scenario._goal_blocks:
-            world.scene.add(end_block)
+        self._scenario.load_robot()
+
+        # Add user-loaded objects to the World
+        world = World.instance()
 
     def _setup_scenario(self):
         """
