@@ -12,7 +12,8 @@ lidars (relative to root f):
 		0 8.55 1
 		-10 0 0
 
-pip casadi
+Needed modules:
+casadi
 
 import omni.kit.commands
 from pxr import Gf
