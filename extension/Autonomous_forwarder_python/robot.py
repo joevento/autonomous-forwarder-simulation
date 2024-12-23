@@ -1,9 +1,11 @@
 import numpy as np
 import math
+import omni.usd
 
 from scipy.interpolate import splprep, splev
 from omni.isaac.core.articulations import Articulation, ArticulationView
 from omni.isaac.core.utils.types import ArticulationAction
+from pxr import Sdf, Usd, UsdGeom
 
 from .global_variables import WHEEL_INDICES, MIDDLE_JOINT
 
@@ -11,8 +13,9 @@ from .global_variables import WHEEL_INDICES, MIDDLE_JOINT
 from omni.isaac.core.objects import VisualSphere
 
 class SplineInterpolator:
-    def __init__(self, waypoints, num_points=50):
+    def __init__(self, waypoints, num_points=50, k=1):
         self.waypoints = waypoints
+        self.k = k
         self.num_points = num_points
         self.spline = self.create_spline()
 
@@ -35,7 +38,7 @@ class RobotHandler:
         self._articulation_view.initialize()
 
     def drive_spline(self, speed, waypoints, accuracy=0.01, wp_xform=None):
-        interpolator = SplineInterpolator(waypoints)
+        interpolator = SplineInterpolator(waypoints, k=3)
         path_points = interpolator.interpolate()
         
         # waypoint debug balls

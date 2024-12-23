@@ -60,12 +60,14 @@ class AutonomousForestryScript:
         robot_prim_path = "/forwarder"
         stage_utils.add_reference_to_stage(usd_path="/home/discoflower8890/autonomous-forwarder-simulation/dev_forwarder.usd", prim_path=robot_prim_path)
         self._articulation = Articulation(prim_path="/forwarder/front", name="forwarder")
+        prim_utils.set_prim_property(robot_prim_path, "xformOp:translate", Gf.Vec3d(0, 0, 0))
 
         # setting up lidars for the forwarder
         lidarPath = "/front/front_lidar/front_lidar"
 
         # xform for waypoint detection
-        self._xform = XFormPrim(robot_prim_path + "/frontChassi/Xform", name="target")
+        self._xform = XFormPrim(robot_prim_path + "/front/Xform", name="target")
+        prim_utils.set_prim_property(robot_prim_path + "/front/Xform", "xformOp:translate", Gf.Vec3d(0, -3, 0))
 
         # ! would be better to use the rtx lidar but idk how to get the ouput from that shit
         result, lidarPrim = omni.kit.commands.execute(
@@ -147,5 +149,5 @@ class AutonomousForestryScript:
 
     def my_script(self):
         self._robot = RobotHandler()
-        yield from self._robot.drive_spline(2, self._targets, 1.5, self._xform)
+        yield from self._robot.drive_spline(1.5, self._targets, 2, self._xform)
         
