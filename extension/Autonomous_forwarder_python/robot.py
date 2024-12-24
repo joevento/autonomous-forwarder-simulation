@@ -46,7 +46,6 @@ class RobotHandler:
             prim_path = f"/World/Xform/Cube_{i}"
             VisualSphere(prim_path=prim_path, position=point, color=np.array([1.0, 0.0, 0.0]), radius=accuracy)
 
-
         for point in path_points:
             yield from self.drive_to_pos(speed, point, accuracy, wp_xform)
             print("done")
@@ -68,7 +67,7 @@ class RobotHandler:
         while not self.reached_end(end_pos, wp_trigger_pos, accuracy):
             position, rotation = self._articulation.get_world_pose()
             wp_trigger_pos, _ = wp_xform.get_world_pose()
-            yield from self.turn_to_pos(end_pos, position, rotation, speed)
+            yield from self.turn_to_pos(end_pos, wp_trigger_pos, rotation, speed)
             yield ()
         
         self._articulation_view.apply_action(
