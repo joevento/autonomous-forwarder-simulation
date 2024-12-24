@@ -58,9 +58,9 @@ class AutonomousForestryScript:
     def load_robot(self):
         # Fowarder
         robot_prim_path = "/forwarder"
-        stage_utils.add_reference_to_stage(usd_path="/home/discoflower8890/autonomous-forwarder-simulation/dev_forwarder.usd", prim_path=robot_prim_path)
+        stage_utils.add_reference_to_stage(usd_path="H:/autonomous_forwarder/dev_forwarder.usd", prim_path=robot_prim_path)
         self._articulation = Articulation(prim_path="/forwarder/front", name="forwarder")
-        prim_utils.set_prim_property(robot_prim_path, "xformOp:translate", Gf.Vec3d(0, 0, 0))
+        #prim_utils.set_prim_property(robot_prim_path, "xformOp:translate", Gf.Vec3d(0, 0, 0))
 
         # setting up lidars for the forwarder
         lidarPaths = ["/front/front_lidar/front_lidar",
