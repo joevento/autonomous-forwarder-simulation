@@ -63,30 +63,33 @@ class AutonomousForestryScript:
         prim_utils.set_prim_property(robot_prim_path, "xformOp:translate", Gf.Vec3d(0, 0, 0))
 
         # setting up lidars for the forwarder
-        lidarPath = "/front/front_lidar/front_lidar"
+        lidarPaths = ["/front/front_lidar/front_lidar",
+                      "/front/top_left_lidar/front_left_lidar",
+                      "/front/top_right_lidar/front_right_lidar"]
 
         # xform for waypoint detection
         self._xform = XFormPrim(robot_prim_path + "/front/Xform", name="target")
         prim_utils.set_prim_property(robot_prim_path + "/front/Xform", "xformOp:translate", Gf.Vec3d(0, -3, 0))
-
-        # ! would be better to use the rtx lidar but idk how to get the ouput from that shit
-        result, lidarPrim = omni.kit.commands.execute(
-                    "RangeSensorCreateLidar",
-                    path=lidarPath,
-                    parent=robot_prim_path,
-                    min_range=0.4,
-                    max_range=100.0,
-                    draw_points=True,
-                    draw_lines=True,
-                    horizontal_fov=180.0,
-                    vertical_fov=10.0,
-                    horizontal_resolution=0.4,
-                    vertical_resolution=4.0,
-                    rotation_rate=0,
-                    high_lod=True,
-                    yaw_offset=0.0,
-                    enable_semantics=False
-                )
+        
+        for i in range(len(lidarPaths)):
+            # ! would be better to use the rtx lidar but idk how to get the ouput from that shit
+            result, lidarPrim = omni.kit.commands.execute(
+                        "RangeSensorCreateLidar",
+                        path=lidarPaths[i],
+                        parent=robot_prim_path,
+                        min_range=0.4,
+                        max_range=100.0,
+                        draw_points=True,
+                        draw_lines=False,
+                        horizontal_fov=180.0,
+                        vertical_fov=22.5,
+                        horizontal_resolution=0.4,
+                        vertical_resolution=4,
+                        rotation_rate=0,
+                        high_lod=True,
+                        yaw_offset=0.0,
+                        enable_semantics=False
+                    )
         
 
         # 1. Create The Camera
