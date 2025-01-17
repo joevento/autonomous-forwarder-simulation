@@ -1,5 +1,6 @@
 extension/Autonomous_forwarder_python/__pycache__/
 .vscode/
 dev_forwarder.usd
+dev_forwarder_arm.usd.usd
 .thumbs/
 env_isaacsim/
