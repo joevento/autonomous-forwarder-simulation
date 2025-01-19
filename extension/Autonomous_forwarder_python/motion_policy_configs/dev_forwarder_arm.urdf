@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="dev_forwarder_arm">
+  <joint name="a1_joint" type="revolute">
+    <origin xyz="-0. -0.0000006 0.5278505" rpy="0. 0. 0."/>
+    <parent link="crane_base"/>
+    <child link="crane_arm1"/>
+    <axis xyz="0. 0. 1."/>
+    <limit lower="-2.6179939" upper="2.6179939" effort="200." velocity="0."/>
+  </joint>
+  <joint name="a1_piston_joint" type="continuous">
+    <origin xyz="0.000142 0.3924854 -0.06987 " rpy="0. 0. 0."/>
+    <parent link="crane_arm2"/>
+    <child link="crane_arm1_piston"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a1_piston_rod_joint" type="continuous">
+    <origin xyz="0.0001416 0.1939093 0.1370397" rpy="0. 0. 0."/>
+    <parent link="crane_arm1"/>
+    <child link="crane_arm1_piston_rod"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a1_piston_rod_prisjoint" type="prismatic">
+    <origin xyz="-0.0000001 -0.0185766 -1.0642397" rpy="0. 0. 0."/>
+    <parent link="crane_arm1_piston"/>
+    <child link="crane_arm1_piston_rod_pris_joint"/>
+    <axis xyz="0. 0. 1."/>
+    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+  </joint>
+  <joint name="a2__joint" type="revolute">
+    <origin xyz="-0.0000003 -0.1799995 1.2711494" rpy="0. 0. 0."/>
+    <parent link="crane_arm1"/>
+    <child link="crane_arm2"/>
+    <axis xyz="1. 0. 0."/>
+    <limit lower="-0.3665191" upper="1.0471976" effort="350." velocity="0."/>
+  </joint>
+  <joint name="a2_link_joint" type="continuous">
+    <origin xyz="0.001594 3.50102 0.1050198" rpy="-0.6981318 0. 0. "/>
+    <parent link="crane_arm2"/>
+    <child link="crane_arm2_linkage"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a2_piston_joint" type="continuous">
+    <origin xyz="0.0004888 1.7708192 0.4947486" rpy="-0.0349066 0. 0. "/>
+    <parent link="crane_arm2"/>
+    <child link="crane_arm2_piston"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a2_piston_rod_joint" type="continuous">
+    <origin xyz="-0.0011045 -0.5359187 0.0040726" rpy="0.6632252 0. 0. "/>
+    <parent link="crane_arm2_linkage"/>
+    <child link="crane_arm2_piston_rod"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a2_piston_rod_link_joint" type="continuous">
+    <origin xyz="0.0004895 -0.5450055 0.0032 " rpy="0.0785402 0. 0. "/>
+    <parent link="crane_arm3_linkage"/>
+    <child link="link_joint"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a2_piston_rod_prisjoint" type="prismatic">
+    <origin xyz="0.0000008 1.3229458 0.0040432" rpy="-0.0000017 0. 0. "/>
+    <parent link="crane_arm2_piston"/>
+    <child link="crane_arm2_piston_rod_pris_joint"/>
+    <axis xyz="0. 1. 0."/>
+    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+  </joint>
+  <joint name="a3_joint" type="revolute">
+    <origin xyz="0. 3.6771762 0.0953598" rpy="-0.2617994 0. 0. "/>
+    <parent link="crane_arm2"/>
+    <child link="crane_arm3"/>
+    <axis xyz="1. 0. 0."/>
+    <limit lower="-2.7925268" upper="0.0872665" effort="200." velocity="0."/>
+  </joint>
+  <joint name="a3_link_joint" type="continuous">
+    <origin xyz="0. -0.1171479 0.2713102" rpy="0.1483526 0. 0. "/>
+    <parent link="crane_arm3"/>
+    <child link="crane_arm3_linkage"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a3_piston_joint" type="continuous">
+    <origin xyz="0.0002565 -0.6106611 0.7958757" rpy="-0.0000004 0. 0. "/>
+    <parent link="crane_arm3"/>
+    <child link="crane_arm3_piston"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a3_piston_prisjoint" type="prismatic">
+    <origin xyz="0.0000067 -2.6421041 0.000032 " rpy="0. 0. 0."/>
+    <parent link="crane_arm3_piston_rod"/>
+    <child link="crane_arm3_piston_pris_joint"/>
+    <axis xyz="0. 1. 0."/>
+    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+  </joint>
+  <joint name="a3_piston_rod_joint" type="continuous">
+    <origin xyz="-0.0000001 2.7377672 0.2859389" rpy="0. 0. 0."/>
+    <parent link="crane_arm4"/>
+    <child link="crane_arm3_piston_rod"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="a4_joint" type="prismatic">
+    <origin xyz="0.0002499 -0.7063242 0.5099049" rpy="-0.0000004 0. 0. "/>
+    <parent link="crane_arm3"/>
+    <child link="crane_arm4"/>
+    <axis xyz="0. 1. 0."/>
+    <limit lower="0." upper="2.2" effort="300." velocity="0."/>
+  </joint>
+  <joint name="a5_joint" type="prismatic">
+    <origin xyz="0.0000002 0.0716659 -0.0083221" rpy="0. 0. 0."/>
+    <parent link="crane_arm4"/>
+    <child link="crane_arm5"/>
+    <axis xyz="0. 1. 0."/>
+    <limit lower="-inf" upper="inf" effort="inf" velocity="0."/>
+  </joint>
+  <joint name="bunk_FixedJoint" type="fixed">
+    <origin xyz="-0.0004 -0.61842 1.0659502" rpy="1.5707961 0. 0. "/>
+    <parent link="crane"/>
+    <child link="bunk"/>
+  </joint>
+  <joint name="claw_l_joint" type="revolute">
+    <origin xyz="0.3394565 0.0008762 -0.2975307" rpy="0. 0. 0."/>
+    <parent link="crane_claw_z_rot"/>
+    <child link="crane_claw_left"/>
+    <axis xyz="0. 1. 0."/>
+    <limit lower="0." upper="2.5307274" effort="inf" velocity="0."/>
+  </joint>
+  <joint name="claw_piston_joint" type="continuous">
+    <origin xyz="-0.0741404 0.0000365 0.04095 " rpy="-0. 0. -3.1415927"/>
+    <parent link="crane_claw_right"/>
+    <child link="crane_claw_piston"/>
+    <axis xyz="0. 1. 0."/>
+  </joint>
+  <joint name="claw_piston_rod_joint" type="continuous">
+    <origin xyz="-0.0778015 0.000165 0.039088 " rpy="0. 0. 0."/>
+    <parent link="crane_claw_left"/>
+    <child link="crane_claw_piston_rod"/>
+    <axis xyz="0. 1. 0."/>
+  </joint>
+  <joint name="claw_piston_rod_prisjoint" type="prismatic">
+    <origin xyz="0.5130962 0.0000685 -0.0021257" rpy="-0. 0. 0."/>
+    <parent link="crane_claw_piston"/>
+    <child link="crane_claw_piston_rod_pris_joint"/>
+    <axis xyz="1. 0. 0."/>
+    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+  </joint>
+  <joint name="claw_r_joint" type="revolute">
+    <origin xyz="-0.3255815 0.0010091 -0.297267 " rpy="-0. 0. 3.1415927"/>
+    <parent link="crane_claw_z_rot"/>
+    <child link="crane_claw_right"/>
+    <axis xyz="0. 1. 0."/>
+    <limit lower="0." upper="2.5307274" effort="0.1" velocity="0."/>
+  </joint>
+  <joint name="claw_x_joint" type="continuous">
+    <origin xyz="0.0004377 3.0663502 -0.06322 " rpy="0.3272493 0. 0. "/>
+    <parent link="crane_arm5"/>
+    <child link="crane_claw_x_rot"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="claw_y_joint" type="continuous">
+    <origin xyz="0.0015288 0.0012213 -0.2432232" rpy="0.0000006 0. 0. "/>
+    <parent link="crane_claw_x_rot"/>
+    <child link="crane_claw_y_rot"/>
+    <axis xyz="0. 1. 0."/>
+  </joint>
+  <joint name="claw_z_joint" type="continuous">
+    <origin xyz="-0.0011873 0.0005056 -0.264471 " rpy="0. 0. 0."/>
+    <parent link="crane_claw_y_rot"/>
+    <child link="crane_claw_z_rot"/>
+    <axis xyz="0. 0. 1."/>
+  </joint>
+  <joint name="crane_base_FixedJoint" type="fixed">
+    <origin xyz="-0.0000177 -0.3912395 1.83152 " rpy="0. 0. 0."/>
+    <parent link="crane"/>
+    <child link="crane_base"/>
+  </joint>
+  <link name="bunk">
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/bunk_vis.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/bunk_vis.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane"/>
+  <link name="crane_arm1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm1_arm1.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm1_arm1.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm1_piston">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm1_piston_arm1_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm1_piston_arm1_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm1_piston_rod">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm1_piston_rod_arm1_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm1_piston_rod_arm1_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm1_piston_rod_pris_joint"/>
+  <link name="crane_arm2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_arm2.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_arm2.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm2_linkage">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="-0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_linkage_arm2_linkage.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="-0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_linkage_arm2_linkage.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm2_piston">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="-0. 0. 0." rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_piston_arm2_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0. 0. 0." rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_piston_arm2_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm2_piston_rod">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_piston_rod_arm2_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm2_piston_rod_arm2_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm2_piston_rod_pris_joint"/>
+  <link name="crane_arm3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_arm3.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_arm3.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm3_linkage">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_linkage_arm3_linkage.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_linkage_arm3_linkage.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm3_piston">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_piston_arm3_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_piston_arm3_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm3_piston_pris_joint"/>
+  <link name="crane_arm3_piston_rod">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_piston_rod_arm3_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm3_piston_rod_arm3_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm4_arm4.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm4_arm4.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_arm5">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm5_arm5.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_arm5_arm5.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_base">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_base_base.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_base_base.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_left">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_left_claw_left.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_left_claw_left.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_piston">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_piston_claw_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_piston_claw_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_piston_rod">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_piston_rod_claw_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_piston_rod_claw_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_piston_rod_pris_joint"/>
+  <link name="crane_claw_right">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_right_claw_right.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_right_claw_right.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_x_rot">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0.0000006 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_x_rot_claw_x_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0.0000006 0. 0. "/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_x_rot_claw_x_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_y_rot">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_y_rot_claw_y_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_y_rot_claw_y_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="crane_claw_z_rot">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="1."/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_z_rot_claw_z_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/crane_claw_z_rot_claw_z_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_joint"/>
+</robot>
