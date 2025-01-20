@@ -32,3 +32,17 @@ EXTENSION_NAME = "Extension"
 WHEEL_INDICES = [3, 4, 5, 6, 9, 10, 11, 12]
 
 MIDDLE_JOINT = 2
+
+world_instance = None
+
+arm_target = None
+
+rmpflow = None
+
+articulation = None
+
+articulation_rmpflow = None
+
+articulation_controller = None
+
+articulation_view = None
