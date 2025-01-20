@@ -178,6 +178,4824 @@
         <mesh filename="meshes/bunk_vis.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="75. 225. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 225. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="65.625 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="56.25 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="46.875 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="37.5 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="28.125 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="18.75 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="9.375 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 225. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-9.375 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-18.75 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-28.125 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-37.5 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-46.875 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.25 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-65.625 225. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.5 207.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-84.5 221.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-94. 218. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-103.5 214.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-113. 211. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-128. 77.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.844 199.375 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.188 191.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.531 183.125 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.875 175. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.219 166.875 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.562 158.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.906 150.625 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.25 142.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.594 134.375 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.938 126.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.281 118.125 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.625 110. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.969 101.875 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.312 93.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.656 85.625 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 0. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-120.429 66.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-112.857 55.357 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.286 44.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-97.714 33.214 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-90.143 22.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-82.571 11.071 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 0. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="61.364 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.727 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="34.091 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.455 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="6.818 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-6.818 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-20.455 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-34.091 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.727 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-61.364 0. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="128. 77.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="82.571 11.071 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="90.143 22.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="97.714 33.214 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.286 44.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="112.857 55.357 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="120.429 66.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.5 207.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.844 199.375 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.188 191.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.531 183.125 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.875 175. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.219 166.875 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.562 158.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.906 150.625 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.25 142.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.594 134.375 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.938 126.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.281 118.125 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.625 110. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.969 101.875 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.312 93.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.656 85.625 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="84.5 221.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="94. 218. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="103.5 214.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="113. 211. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.5 211. -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="130. 63. -162." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.182 197.545 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.864 184.091 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.545 170.636 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.227 157.182 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.909 143.727 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.591 130.273 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.273 116.818 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.955 103.364 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="128.636 89.909 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="129.318 76.455 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="130. 63. -232." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.5 211. -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="129.318 76.455 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="128.636 89.909 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.955 103.364 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.273 116.818 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.591 130.273 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.909 143.727 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.227 157.182 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.545 170.636 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.864 184.091 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.182 197.545 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.5 211. -406.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="130. 63. -406.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.182 197.545 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.864 184.091 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.545 170.636 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.227 157.182 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.909 143.727 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.591 130.273 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.273 116.818 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.955 103.364 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="128.636 89.909 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="129.318 76.455 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="130. 63. -511.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.5 211. -511.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.182 197.545 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.864 184.091 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.545 170.636 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.227 157.182 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.909 143.727 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.591 130.273 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.273 116.818 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.955 103.364 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="128.636 89.909 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="129.318 76.455 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="122.5 211. -576.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="130. 63. -576.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.182 197.545 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="123.864 184.091 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="124.545 170.636 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.227 157.182 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="125.909 143.727 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="126.591 130.273 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.273 116.818 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="127.955 103.364 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="128.636 89.909 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="129.318 76.455 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-130. 63. -576.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-130. 63. -511.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-130. 63. -406.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-130. 63. -232." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-130. 63. -162." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.5 211. -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.5 211. -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.5 211. -406.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.5 211. -511.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-122.5 211. -576.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.182 197.545 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.864 184.091 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.545 170.636 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.227 157.182 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.909 143.727 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.591 130.273 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.273 116.818 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.955 103.364 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-128.636 89.909 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-129.318 76.455 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.182 197.545 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.864 184.091 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.545 170.636 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.227 157.182 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.909 143.727 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.591 130.273 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.273 116.818 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.955 103.364 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-128.636 89.909 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-129.318 76.455 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.182 197.545 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.864 184.091 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.545 170.636 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.227 157.182 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.909 143.727 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.591 130.273 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.273 116.818 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.955 103.364 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-128.636 89.909 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-129.318 76.455 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.182 197.545 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.864 184.091 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.545 170.636 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.227 157.182 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.909 143.727 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.591 130.273 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.273 116.818 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.955 103.364 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-128.636 89.909 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-129.318 76.455 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.182 197.545 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-123.864 184.091 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-124.545 170.636 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.227 157.182 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-125.909 143.727 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-126.591 130.273 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.273 116.818 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-127.955 103.364 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-128.636 89.909 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-129.318 76.455 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-44. 60. -575.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.714 62.571 -576.357" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.429 62.143 -576.214" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-93.143 61.714 -576.071" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-80.857 61.286 -575.929" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.571 60.857 -575.786" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.286 60.429 -575.643" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-44. 60. -511.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.714 62.571 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.429 62.143 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-93.143 61.714 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-80.857 61.286 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.571 60.857 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.286 60.429 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-44. 60. -406.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.714 62.571 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.429 62.143 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-93.143 61.714 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-80.857 61.286 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.571 60.857 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.286 60.429 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-44. 60. -232." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.714 62.571 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.429 62.143 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-93.143 61.714 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-80.857 61.286 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.571 60.857 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.286 60.429 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-44. 60. -162." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.714 62.571 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.429 62.143 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-93.143 61.714 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-80.857 61.286 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.571 60.857 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.286 60.429 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="44. 60. -162." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.714 62.571 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.429 62.143 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="93.143 61.714 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="80.857 61.286 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="68.571 60.857 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="56.286 60.429 -162. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="44. 60. -232." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.714 62.571 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.429 62.143 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="93.143 61.714 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="80.857 61.286 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="68.571 60.857 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="56.286 60.429 -232. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="44. 60. -406.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.714 62.571 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.429 62.143 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="93.143 61.714 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="80.857 61.286 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="68.571 60.857 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="56.286 60.429 -406.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="44. 60. -511.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.714 62.571 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.429 62.143 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="93.143 61.714 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="80.857 61.286 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="68.571 60.857 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="56.286 60.429 -511.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="44. 60. -576.5" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.714 62.571 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.429 62.143 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="93.143 61.714 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="80.857 61.286 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="68.571 60.857 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="56.286 60.429 -576.5 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="10."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 150. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 75. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="75. 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="65.422 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="65.219 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="65.016 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="64.813 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="64.61 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="64.408 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="64.205 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="64.002 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="63.799 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="63.596 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="63.393 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="63.19 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="62.987 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="62.784 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="62.581 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="62.379 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="62.176 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="61.973 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="61.77 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="61.567 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="55.844 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="55.438 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="55.032 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="54.627 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="54.221 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="53.815 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="53.409 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="53.003 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="52.597 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="52.191 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="51.786 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="51.38 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="50.974 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="50.568 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="50.162 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="49.756 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="49.35 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="48.945 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="48.539 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="48.133 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.325 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.649 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.974 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="1.299 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="1.623 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="1.948 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="2.273 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="2.597 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="2.922 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="3.247 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="3.571 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="3.896 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="4.221 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="4.545 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="4.87 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="5.195 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="5.519 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="5.844 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="6.169 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="6.493 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.325 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.649 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.974 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-1.299 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-1.623 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-1.948 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-2.273 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-2.597 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-2.922 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-3.247 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-3.571 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-3.896 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-4.221 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-4.545 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-4.87 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-5.195 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-5.519 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-5.844 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-6.169 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-6.493 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="9.253 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="9.131 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="9.01 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.888 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.766 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.644 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.523 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.401 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.279 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.157 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="8.036 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.914 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.792 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.67 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.549 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.427 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.305 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.183 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="7.062 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="6.94 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="46.916 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="46.956 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="46.997 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.037 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.078 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.118 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.159 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.2 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.24 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.281 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.321 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.362 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.402 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.443 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.484 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.524 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.565 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.605 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.646 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="47.686 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="18.831 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="18.912 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="18.994 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.075 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.156 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.237 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.318 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.4 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.481 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.562 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.643 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.724 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.805 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.887 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="19.968 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.049 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.13 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.211 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.293 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.374 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="37.338 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="37.175 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="37.013 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="36.851 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="36.688 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="36.526 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="36.364 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="36.201 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="36.039 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="35.877 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="35.714 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="35.552 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="35.39 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="35.227 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="35.065 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="34.903 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="34.74 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="34.578 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="34.416 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="34.253 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="27.76 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="27.395 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="27.029 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="26.664 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="26.299 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="25.934 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="25.568 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="25.203 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="24.838 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="24.473 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="24.107 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="23.742 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="23.377 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="23.012 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="22.646 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="22.281 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="21.916 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="21.551 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="21.185 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="20.82 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 150. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 75. -87." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75. 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-66.071 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-66.518 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-66.964 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-67.411 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-67.857 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.304 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-68.75 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-69.196 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-69.643 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-70.089 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-70.536 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-70.982 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-71.429 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-71.875 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-72.321 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-72.768 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-73.214 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-73.661 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-74.107 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-74.554 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.494 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.737 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.981 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-57.224 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-57.468 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-57.711 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-57.955 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-58.198 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-58.442 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-58.685 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-58.929 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-59.172 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-59.416 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-59.659 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-59.903 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-60.146 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-60.39 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-60.633 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-60.877 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-61.12 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.565 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-48.255 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-48.945 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-49.635 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-50.325 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-51.015 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-51.705 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-52.395 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-53.085 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-53.775 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-54.464 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-55.154 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-55.844 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-56.534 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-57.224 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-57.914 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-58.604 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-59.294 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-59.984 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-60.674 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-46.916 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-46.956 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-46.997 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.037 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.078 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.118 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.159 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.2 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.24 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.281 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.321 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.362 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.402 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.443 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.484 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.524 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.565 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.605 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.646 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-47.686 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-37.338 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-37.175 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-37.013 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-36.851 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-36.688 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-36.526 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-36.364 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-36.201 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-36.039 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-35.877 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-35.714 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-35.552 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-35.39 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-35.227 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-35.065 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-34.903 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-34.74 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-34.578 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-34.416 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-34.253 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-28.409 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-28.693 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-28.977 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-29.261 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-29.545 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-29.83 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-30.114 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-30.398 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-30.682 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-30.966 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-31.25 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-31.534 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-31.818 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-32.102 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-32.386 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-32.671 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-32.955 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-33.239 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-33.523 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-33.807 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-18.831 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-18.912 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-18.994 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.075 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.156 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.237 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.318 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.4 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.481 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.562 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.643 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.724 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.805 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.887 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.968 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-20.049 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-20.13 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-20.211 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-20.293 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-20.374 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-9.903 214.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-10.43 203.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-10.958 192.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-11.485 182.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-12.013 171.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-12.541 160.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-13.068 150. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-13.596 139.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-14.124 128.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-14.651 117.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-15.179 107.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-15.706 96.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-16.234 85.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-16.762 75. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-17.289 64.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-17.817 53.571 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-18.345 42.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-18.872 32.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.4 21.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-19.927 10.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-113.464 201.964 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-113.929 192.929 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-114.393 183.893 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-114.857 174.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-115.322 165.822 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-115.786 156.786 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-116.25 147.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-116.714 138.715 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.179 129.679 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-117.643 120.643 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-118.107 111.607 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-118.572 102.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-119.036 93.536 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-119.5 84.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-119.965 75.465 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-104.085 204.554 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-104.67 194.607 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.254 184.661 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-105.839 174.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-106.424 164.768 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-107.009 154.821 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-107.594 144.875 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-108.178 134.928 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-108.763 124.982 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-109.348 115.036 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-109.933 105.089 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-110.518 95.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-111.103 85.196 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-111.687 75.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-112.272 65.303 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-94.705 207.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-95.411 196.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-96.116 185.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-96.822 174.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-97.527 163.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-98.232 152.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-98.938 142. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-99.643 131.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-100.348 120.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-101.054 109.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-101.759 98.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-102.464 87.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-103.17 76.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-103.875 66. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-104.581 55.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-85.326 209.732 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-86.152 197.964 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-86.978 186.196 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-87.804 174.428 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-88.629 162.661 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-89.455 150.893 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-90.281 139.125 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-91.107 127.357 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-91.933 115.589 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-92.759 103.821 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-93.585 92.053 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-94.41 80.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-95.236 68.518 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-96.062 56.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-96.888 44.982 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-75.946 212.321 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-76.893 199.643 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-77.839 186.964 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-78.786 174.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-79.732 161.607 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-80.679 148.929 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-81.625 136.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-82.572 123.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-83.518 110.893 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-84.464 98.214 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-85.411 85.536 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-86.357 72.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-87.304 60.179 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-88.25 47.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-89.197 34.822 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="113.464 201.964 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="113.929 192.929 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="114.393 183.893 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="114.857 174.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="115.322 165.822 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="115.786 156.786 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="116.25 147.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="116.714 138.715 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.179 129.679 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="117.643 120.643 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="118.107 111.607 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="118.572 102.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="119.036 93.536 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="119.5 84.5 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="119.965 75.465 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="104.085 204.554 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="104.67 194.607 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.254 184.661 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="105.839 174.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="106.424 164.768 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="107.009 154.821 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="107.594 144.875 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="108.178 134.928 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="108.763 124.982 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="109.348 115.036 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="109.933 105.089 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="110.518 95.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="111.103 85.196 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="111.687 75.25 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="112.272 65.303 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="94.705 207.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="95.411 196.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="96.116 185.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="96.822 174.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="97.527 163.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="98.232 152.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="98.938 142. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="99.643 131.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="100.348 120.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="101.054 109.429 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="101.759 98.572 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="102.464 87.714 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="103.17 76.857 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="103.875 66. -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="104.581 55.143 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="85.326 209.732 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="86.152 197.964 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="86.978 186.196 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="87.804 174.428 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="88.629 162.661 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="89.455 150.893 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="90.281 139.125 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="91.107 127.357 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="91.933 115.589 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="92.759 103.821 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="93.585 92.053 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="94.41 80.286 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="95.236 68.518 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="96.062 56.75 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="96.888 44.982 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="84.853 209.04 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="85.205 196.58 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="85.558 184.121 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="85.911 171.661 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="86.263 159.201 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="86.616 146.741 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="86.969 134.281 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="87.322 121.822 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="87.674 109.362 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="88.027 96.902 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="88.38 84.442 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="88.732 71.982 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="89.085 59.522 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="89.438 47.063 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="89.79 34.603 -87. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="9."/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -196,6 +5014,60 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_arm1_arm1.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.175 1.25 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.156 1.113" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1555"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.136 0.97 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1612"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.115 0.823" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1671"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.094 0.67 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1732"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.072 0.511" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1795"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.049 0.347" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1861"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.025 0.177" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1929"/>
       </geometry>
     </visual>
     <collision>
@@ -217,6 +5089,54 @@
         <mesh filename="meshes/crane_arm1_piston_arm1_piston.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.01 -0.775" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.001 -0.111" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.003 -0.221" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.004 -0.332" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.006 -0.443" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.007 -0.554" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.009 -0.664" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -234,6 +5154,114 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_arm1_piston_rod_arm1_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.015 0.81 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.001 0.051" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.002 0.101" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.003 0.152" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.004 0.202" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.005 0.253" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.006 0.304" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.007 0.354" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.008 0.405" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.008 0.456" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.009 0.506" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.01 0.557" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.011 0.608" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.012 0.658" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.013 0.709" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.014 0.759" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
       </geometry>
     </visual>
     <collision>
@@ -256,6 +5284,162 @@
         <mesh filename="meshes/crane_arm2_arm2.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. 3.6 0.15" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.35 0.25" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.25"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 3.48 0.154" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1537"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 3.357 0.157" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1575"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 3.231 0.161" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1614"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 3.102 0.165" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1653"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.97 0.169" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1694"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.834 0.174" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1736"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.695 0.178" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1778"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.553 0.182" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1822"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.407 0.187" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1867"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.257 0.191" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1913"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.104 0.196" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.196"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.948 0.201" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2008"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.787 0.206" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2058"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.622 0.211" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2109"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.453 0.216" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.216"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.28 0.221" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2214"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.103 0.227" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2268"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.922 0.232" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2324"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.736 0.238" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2381"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.545 0.244" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.244"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.5 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.25 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.15 0.15" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -273,6 +5457,90 @@
       <origin xyz="0. 0. 0." rpy="-0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_arm2_linkage_arm2_linkage.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.14 0. 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 0. 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.047 0. 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.047 0. 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 -0.53 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 -0.086 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0664"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 -0.18 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0736"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 -0.285 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0815"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 -0.401 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0903"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.14 -0.53 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.14 -0.086 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0664"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.14 -0.18 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0736"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.14 -0.285 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0815"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.14 -0.401 0. " rpy="-0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0903"/>
       </geometry>
     </visual>
     <collision>
@@ -294,6 +5562,78 @@
         <mesh filename="meshes/crane_arm2_piston_arm2_piston.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="-0. 0. 0." rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 1.1 -0.0000019" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.1 -0.0000002" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.2 -0.0000003" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.3 -0.0000005" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.4 -0.0000007" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.5 -0.0000009" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.6 -0.000001" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.7 -0.0000012" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.8 -0.0000014" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 0.9 -0.0000015" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0. 1. -0.0000017" rpy="-0.0000017 0. 0. "/>
+      <geometry>
+        <sphere radius="0.09"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="-0. 0. 0." rpy="-0.0000017 0. 0. "/>
       <geometry>
@@ -311,6 +5651,156 @@
       <origin xyz="0. 0. 0." rpy="-0.0000001 0. 0. "/>
       <geometry>
         <mesh filename="meshes/crane_arm2_piston_rod_arm2_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.15 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.05 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.1 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.15 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.2 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.25 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.3 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.35 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.4 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.45 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.5 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.55 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.6 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.65 0. " rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.7 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.75 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.8 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.85 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.9 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.95 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1. 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.05 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.1 0.0000001" rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="-0.0000001 0. 0. "/>
+      <geometry>
+        <sphere radius="0.12"/>
       </geometry>
     </visual>
     <collision>
@@ -333,6 +5823,126 @@
         <mesh filename="meshes/crane_arm3_arm3.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. -1.3499998 0.5000005" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.8500003 0.4999993" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.1499997 0.5000005" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.9499998 0.5000004" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.7499998 0.5000003" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.5499998 0.5000002" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.3499998 0.5000001" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.1499998 0.5000001" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.0500002 0.5 " rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.2500002 0.4999999" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.4500002 0.4999998" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.6500002 0.4999997" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.8500002 0.4999996" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.0500002 0.4999996" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.2500002 0.4999995" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.4500003 0.4999994" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.6500002 0.4999993" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.0400001 0.15 " rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.2450001 0.3249999" rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.0549999 0.325 " rpy="-0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="-0.0000004 0. 0. "/>
       <geometry>
@@ -352,6 +5962,162 @@
         <mesh filename="meshes/crane_arm3_linkage_arm3_linkage.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="-0.13 0. 0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.13 0. 0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 0. 0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.026 0. 0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.026 0. 0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 0. 0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.13 -0.55 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.065"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.13 -0.55 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.065"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.55 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.065"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.026 -0.55 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.065"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.026 -0.55 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.065"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.55 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.065"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.061 -0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0517"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.124 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0534"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.19 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0552"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.257 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.057"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.327 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0589"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.399 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0609"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.078 -0.473 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0629"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.061 -0. " rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0517"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.124 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0534"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.19 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0552"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.257 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.057"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.327 -0.0000001" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0589"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.399 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0609"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.078 -0.473 -0.0000002" rpy="0.0000004 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0629"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0.0000004 0. 0. "/>
       <geometry>
@@ -369,6 +6135,180 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_arm3_piston_arm3_piston.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.07 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.12 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.4 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.208 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.295 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.383 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.471 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.558 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.646 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.734 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.822 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.909 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.997 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.085 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.172 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.26 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.348 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.435 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.523 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.611 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.698 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.786 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.874 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.962 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.049 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.137 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.225 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.312 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.06"/>
       </geometry>
     </visual>
     <collision>
@@ -391,6 +6331,318 @@
         <mesh filename="meshes/crane_arm3_piston_rod_arm3_piston_rod.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.4 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.047 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.094 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.141 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.188 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.235 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.282 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.329 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.376 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.424 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.471 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.518 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.565 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.612 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.659 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.706 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.753 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.8 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.847 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.894 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.941 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.988 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.035 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.082 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.129 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.176 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.224 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.271 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.318 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.365 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.412 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.459 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.506 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.553 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.6 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.647 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.694 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.741 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.788 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.835 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.882 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.929 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -1.976 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.024 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.071 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.118 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.165 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.212 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.259 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.306 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -2.353 -0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.0375"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -408,6 +6660,114 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_arm4_arm4.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.75 0.0000001" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.172 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.344 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.516 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.688 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.859 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.031 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.203 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.375 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.547 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.719 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.891 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.062 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.234 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.406 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.578 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.75 0.2000001" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
       </geometry>
     </visual>
     <collision>
@@ -429,6 +6789,138 @@
         <mesh filename="meshes/crane_arm5_arm5.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 3. 0.0000001" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.143 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.286 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.429 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.571 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.714 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.857 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.143 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.286 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.429 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.571 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.714 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 1.857 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.143 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.286 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.429 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.571 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.714 0.0000001" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 2.857 0.0000001" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -446,6 +6938,156 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_base_base.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0.15" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.3"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.85 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.25 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.37 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.49 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.61 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.73 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.25 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.85 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.37 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.49 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.61 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.73 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.85 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.85 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.25 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.25 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.73 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.61 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.49 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.37 -0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.73 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.61 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.49 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.37 0.1 0.21" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
       </geometry>
     </visual>
     <collision>
@@ -467,6 +7109,114 @@
         <mesh filename="meshes/crane_claw_left_claw_left.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. 0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.7 0.125 -0.35 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.7 -0.125 -0.35 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.5 -0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.125"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.5 0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.125"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.134 -0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1433"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.261 -0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1369"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.383 -0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1308"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.654 -0.125 -0.27 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1057"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.606 -0.125 -0.185" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1118"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.554 -0.125 -0.095" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1182"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.134 0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1433"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.261 0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1369"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.383 0.125 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1308"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.654 0.125 -0.27 " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1057"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.606 0.125 -0.185" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1118"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.554 0.125 -0.095" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.1182"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -486,6 +7236,90 @@
         <mesh filename="meshes/crane_claw_piston_claw_piston.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0.42 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.35 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.28 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.21 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.07 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.42 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.07 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.14 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.21 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.28 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.35 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -503,6 +7337,150 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_claw_piston_rod_claw_piston_rod.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.05"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.41 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.41 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.369 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.328 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.287 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.246 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.205 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.164 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.123 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.082 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.041 -0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.369 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.328 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.287 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.246 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.205 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.164 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.123 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.082 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.041 0.11 0. " rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.03"/>
       </geometry>
     </visual>
     <collision>
@@ -525,6 +7503,114 @@
         <mesh filename="meshes/crane_claw_right_claw_right.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0.5 -0.125 -0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.125"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.5 0.125 0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.125"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.125 0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. -0.125 -0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.7 -0.125 -0.35 " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.7 0.125 -0.35 " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.134 -0.125 -0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1433"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.261 -0.125 -0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1369"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.383 -0.125 -0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1308"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.654 -0.125 -0.27 " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1057"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.606 -0.125 -0.185" rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1118"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.554 -0.125 -0.095" rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1182"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.134 0.125 0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1433"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.261 0.125 0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1369"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.383 0.125 0. " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1308"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.654 0.125 -0.27 " rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1057"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.606 0.125 -0.185" rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1118"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.554 0.125 -0.095" rpy="-0. 0. -3.1415927"/>
+      <geometry>
+        <sphere radius="0.1182"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="-0. 0. -3.1415927"/>
       <geometry>
@@ -542,6 +7628,24 @@
       <origin xyz="0. 0. 0." rpy="0.0000006 0. 0. "/>
       <geometry>
         <mesh filename="meshes/crane_claw_x_rot_claw_x_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0.0000006 0. 0. "/>
+      <geometry>
+        <sphere radius="0.08"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.0000001 -0.25 " rpy="0.0000006 0. 0. "/>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.0000001 -0.118 " rpy="0.0000006 0. 0. "/>
+      <geometry>
+        <sphere radius="0.0894"/>
       </geometry>
     </visual>
     <collision>
@@ -563,6 +7667,24 @@
         <mesh filename="meshes/crane_claw_y_rot_claw_y_rot.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.11"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. -0.23" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.11"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. -0.115" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.11"/>
+      </geometry>
+    </visual>
     <collision>
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
@@ -580,6 +7702,36 @@
       <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
       <geometry>
         <mesh filename="meshes/crane_claw_z_rot_claw_z_rot.obj" scale="1. 1. 1."/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.15 0.12 -0.25" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.15 0.12 -0.25" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.15 -0.12 -0.25" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.15 -0.12 -0.25" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. -0.1" rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.15"/>
       </geometry>
     </visual>
     <collision>
