@@ -18,6 +18,7 @@ from omni.isaac.ui.ui_utils import get_style
 from omni.usd import StageEventType
 
 from .scenario import AutonomousForestryScript
+from . import global_variables
 
 
 class UIBuilder:
@@ -139,10 +140,13 @@ class UIBuilder:
         self.stage = create_new_stage()
 
         self._scenario.load_assets()
-        self._scenario.load_robot()
+        robot, articulation = self._scenario.load_robot()
 
         # Add user-loaded objects to the World
         world = World.instance()
+        global_variables.world_instance = world
+
+        global_variables.world_instance.scene.add(articulation)
 
     def _setup_scenario(self):
         """
