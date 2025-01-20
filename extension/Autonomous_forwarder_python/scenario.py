@@ -9,19 +9,19 @@
 
 import numpy as np
 import omni.kit.app
-import os
 import omni.usd
+
 from pxr import Gf
 from omni.isaac.core.prims import XFormPrim
 from omni.isaac.core.utils.viewports import set_camera_view
 from omni.isaac.core.articulations import Articulation, ArticulationView
 import omni.isaac.core.utils.prims as prim_utils
-import omni.replicator.core as rep
 from omni.isaac.core.objects import FixedCuboid
 
 import omni.isaac.core.utils.stage as stage_utils
 
 from .global_variables import EXTENSION_NAME
+from . import global_variables
 from .robot import RobotHandler
 
 class AutonomousForestryScript:
@@ -39,6 +39,8 @@ class AutonomousForestryScript:
 
         self._script_generator = None
 
+        self._arm_target = None
+
     def load_assets(self):
         """Load assets onto the stage and return them so they can be registered with the
         core.World.
@@ -48,7 +50,6 @@ class AutonomousForestryScript:
         The position in which things are loaded is also the position to which
         they will be returned on reset.
         """
-        self._terrain_prim_path = "/terrain"
 
         terrain_prim_path = "/World/terrain"
         FixedCuboid(terrain_prim_path, scale=[200,200,0.1])
@@ -58,7 +59,7 @@ class AutonomousForestryScript:
     def load_robot(self):
         # Fowarder
         robot_prim_path = "/forwarder"
-        stage_utils.add_reference_to_stage(usd_path="H:/autonomous_forwarder/dev_forwarder.usd", prim_path=robot_prim_path)
+        self._robot = stage_utils.add_reference_to_stage(usd_path="H:/autonomous_forwarder/dev_forwarder.usd", prim_path=robot_prim_path)
         self._articulation = Articulation(prim_path="/forwarder/front", name="forwarder")
         #prim_utils.set_prim_property(robot_prim_path, "xformOp:translate", Gf.Vec3d(0, 0, 0))
 
@@ -109,6 +110,7 @@ class AutonomousForestryScript:
         # 4. Create Annotator to read the data from with annotator.get_data()
         annotator = rep.AnnotatorRegistry.get_annotator("RtxSensorCpuIsaacCreateRTXLidarScanBuffer")
         annotator.attach(render_product)"""
+        return self._robot, self._articulation, 
 
     def setup(self):
         """
@@ -146,11 +148,32 @@ class AutonomousForestryScript:
 
     def update(self, step: float):
         try:
-            result = next(self._script_generator)
+            
+            target_pos, target_orient = global_variables.arm_target.get_world_pose()
+            
+            global_variables.rmpflow.set_end_effector_target(
+                target_pos, target_orient
+            )
+
+            # Track any movements of the cube obstacle
+            global_variables.rmpflow.update_world()
+
+            #Track any movements of the robot base
+            robot_base_translation,robot_base_orientation = global_variables.articulation.get_world_pose()
+            global_variables.rmpflow.set_robot_base_pose(robot_base_translation,robot_base_orientation)
+            action = global_variables.articulation_rmpflow.get_next_articulation_action(step)
+            #print(global_variables.articulation_controller)
+            global_variables.articulation_controller.apply_action(action)
+            
+            #result = next(self._script_generator)
         except StopIteration:
             return True
 
     def my_script(self):
         self._robot = RobotHandler()
-        yield from self._robot.drive_spline(1.5, self._targets, 2, self._xform)
+        
+        #yield from self._robot.move_arm()
+
+        # Driving
+        #yield from self._robot.drive_spline(1.5, self._targets, 0.75, self._xform) #fails at 0.5 acc
         
