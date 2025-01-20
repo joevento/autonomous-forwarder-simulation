@@ -5,7 +5,7 @@
     <parent link="crane_base"/>
     <child link="crane_arm1"/>
     <axis xyz="0. 0. 1."/>
-    <limit lower="-2.6179939" upper="2.6179939" effort="200." velocity="0."/>
+    <limit lower="-2.6179939" upper="2.6179939" effort="200." velocity="10"/>
   </joint>
   <joint name="a1_piston_joint" type="continuous">
     <origin xyz="0.000142 0.3924854 -0.06987 " rpy="0. 0. 0."/>
@@ -24,14 +24,14 @@
     <parent link="crane_arm1_piston"/>
     <child link="crane_arm1_piston_rod_pris_joint"/>
     <axis xyz="0. 0. 1."/>
-    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+    <limit lower="-360" upper="360" effort="0." velocity="10"/>
   </joint>
   <joint name="a2__joint" type="revolute">
     <origin xyz="-0.0000003 -0.1799995 1.2711494" rpy="0. 0. 0."/>
     <parent link="crane_arm1"/>
     <child link="crane_arm2"/>
     <axis xyz="1. 0. 0."/>
-    <limit lower="-0.3665191" upper="1.0471976" effort="350." velocity="0."/>
+    <limit lower="-0.3665191" upper="1.0471976" effort="350." velocity="10"/>
   </joint>
   <joint name="a2_link_joint" type="continuous">
     <origin xyz="0.001594 3.50102 0.1050198" rpy="-0.6981318 0. 0. "/>
@@ -62,14 +62,14 @@
     <parent link="crane_arm2_piston"/>
     <child link="crane_arm2_piston_rod_pris_joint"/>
     <axis xyz="0. 1. 0."/>
-    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+    <limit lower="-360" upper="360" effort="0." velocity="10"/>
   </joint>
   <joint name="a3_joint" type="revolute">
     <origin xyz="0. 3.6771762 0.0953598" rpy="-0.2617994 0. 0. "/>
     <parent link="crane_arm2"/>
     <child link="crane_arm3"/>
     <axis xyz="1. 0. 0."/>
-    <limit lower="-2.7925268" upper="0.0872665" effort="200." velocity="0."/>
+    <limit lower="-2.7925268" upper="0.0872665" effort="200." velocity="10"/>
   </joint>
   <joint name="a3_link_joint" type="continuous">
     <origin xyz="0. -0.1171479 0.2713102" rpy="0.1483526 0. 0. "/>
@@ -88,7 +88,7 @@
     <parent link="crane_arm3_piston_rod"/>
     <child link="crane_arm3_piston_pris_joint"/>
     <axis xyz="0. 1. 0."/>
-    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+    <limit lower="-360" upper="360" effort="0." velocity="10"/>
   </joint>
   <joint name="a3_piston_rod_joint" type="continuous">
     <origin xyz="-0.0000001 2.7377672 0.2859389" rpy="0. 0. 0."/>
@@ -101,14 +101,14 @@
     <parent link="crane_arm3"/>
     <child link="crane_arm4"/>
     <axis xyz="0. 1. 0."/>
-    <limit lower="0." upper="2.2" effort="300." velocity="0."/>
+    <limit lower="0." upper="2.2" effort="300." velocity="10"/>
   </joint>
   <joint name="a5_joint" type="prismatic">
     <origin xyz="0.0000002 0.0716659 -0.0083221" rpy="0. 0. 0."/>
     <parent link="crane_arm4"/>
     <child link="crane_arm5"/>
     <axis xyz="0. 1. 0."/>
-    <limit lower="-inf" upper="inf" effort="inf" velocity="0."/>
+    <limit lower="-360" upper="360" effort="360" velocity="10"/>
   </joint>
   <joint name="bunk_FixedJoint" type="fixed">
     <origin xyz="-0.0004 -0.61842 1.0659502" rpy="1.5707961 0. 0. "/>
@@ -120,7 +120,7 @@
     <parent link="crane_claw_z_rot"/>
     <child link="crane_claw_left"/>
     <axis xyz="0. 1. 0."/>
-    <limit lower="0." upper="2.5307274" effort="inf" velocity="0."/>
+    <limit lower="0." upper="2.5307274" effort="360" velocity="10"/>
   </joint>
   <joint name="claw_piston_joint" type="continuous">
     <origin xyz="-0.0741404 0.0000365 0.04095 " rpy="-0. 0. -3.1415927"/>
@@ -139,14 +139,14 @@
     <parent link="crane_claw_piston"/>
     <child link="crane_claw_piston_rod_pris_joint"/>
     <axis xyz="1. 0. 0."/>
-    <limit lower="-inf" upper="inf" effort="0." velocity="0."/>
+    <limit lower="-360" upper="360" effort="0." velocity="10"/>
   </joint>
   <joint name="claw_r_joint" type="revolute">
     <origin xyz="-0.3255815 0.0010091 -0.297267 " rpy="-0. 0. 3.1415927"/>
     <parent link="crane_claw_z_rot"/>
     <child link="crane_claw_right"/>
     <axis xyz="0. 1. 0."/>
-    <limit lower="0." upper="2.5307274" effort="0.1" velocity="0."/>
+    <limit lower="0." upper="2.5307274" effort="0.1" velocity="10"/>
   </joint>
   <joint name="claw_x_joint" type="continuous">
     <origin xyz="0.0004377 3.0663502 -0.06322 " rpy="0.3272493 0. 0. "/>
@@ -160,11 +160,18 @@
     <child link="crane_claw_y_rot"/>
     <axis xyz="0. 1. 0."/>
   </joint>
-  <joint name="claw_z_joint" type="continuous">
+  <joint name="claw_z_joint" type="revolute">
     <origin xyz="-0.0011873 0.0005056 -0.264471 " rpy="0. 0. 0."/>
     <parent link="crane_claw_y_rot"/>
     <child link="crane_claw_z_rot"/>
     <axis xyz="0. 0. 1."/>
+    <limit lower="-6.2831853" upper="6.2831853" effort="3." velocity="10."/>
+  </joint>
+  <link name="arm_end_effector" />
+  <joint name="crane_arm_end_effector_arm_end_effector" type="fixed">
+    <origin xyz="0. -0.0000059 -0.606272 " rpy="-0. 0. 0."/>
+    <parent link="crane_claw_z_rot"/>
+    <child link="arm_end_effector" />
   </joint>
   <joint name="crane_base_FixedJoint" type="fixed">
     <origin xyz="-0.0000177 -0.3912395 1.83152 " rpy="0. 0. 0."/>
